@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Completed 01-03-PLAN.md
-last_updated: "2026-03-11T13:39:21.685Z"
-last_activity: 2026-03-11 — Plan 01-03 executed
+status: executing
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-11T14:08:17.827Z"
+last_activity: 2026-03-11 — Plan 02-02 executed
 progress:
   total_phases: 4
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
-  percent: 100
+  total_plans: 6
+  completed_plans: 5
+  percent: 50
 ---
 
 # Project State
@@ -21,35 +21,37 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-11)
 
 **Core value:** Visitors instantly understand what Frexes builds and feel confident these are high-quality, well-crafted apps.
-**Current focus:** Phase 1 — Foundation
+**Current focus:** Phase 2 — Static Content
 
 ## Current Position
 
-Phase: 1 of 4 (Foundation)
-Plan: 3 of 3 in current phase
-Status: Phase Complete
-Last activity: 2026-03-11 — Plan 01-03 executed
+Phase: 2 of 4 (Static Content)
+Plan: 2 of 3 in current phase
+Status: In Progress
+Last activity: 2026-03-11 — Plan 02-02 executed
 
-Progress: [██████████] 100%
+Progress: [█████-----] 50%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: 1.7 min
-- Total execution time: 0.08 hours
+- Total plans completed: 5
+- Average duration: 1.4 min
+- Total execution time: 0.12 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-foundation | 3/3 | 5 min | 1.7 min |
+| 02-static-content | 2/3 | 2 min | 1.0 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (2 min), 01-02 (1 min), 01-03 (2 min)
+- Last 5 plans: 01-01 (2 min), 01-02 (1 min), 01-03 (2 min), 02-01 (1 min), 02-02 (1 min)
 - Trend: consistent
 
 *Updated after each plan completion*
+| Phase 02 P01 | 1 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -64,6 +66,8 @@ Recent decisions affecting current work:
 - [Animations]: NO scroll-triggered show/hide — ambient always-running animations only (Vercel/Langchain style)
 - [01-01]: Manual shadcn/ui init — interactive CLI blocked, manually created components.json + cn() utility
 - [01-01]: Inter font for both body and headings — geometric, clean, matches bold aesthetic
+- [02-02]: Dynamic Tag pattern for conditional <a>/<div> wrapping in AppCard
+- [Phase 02]: Hand-wrote OG/Twitter meta tags instead of astro-seo package — fewer deps, full control
 
 ### Pending Todos
 
@@ -77,6 +81,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-11T13:35:21Z
-Stopped at: Completed 01-03-PLAN.md
-Resume file: .planning/phases/01-foundation/01-03-SUMMARY.md
+Last session: 2026-03-11T14:08:17.825Z
+Stopped at: Completed 02-01-PLAN.md
+Resume file: None

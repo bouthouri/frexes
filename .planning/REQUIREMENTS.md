@@ -16,16 +16,16 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Hero
 
-- [ ] **HERO-01**: Hero section with "Frexes" name and tagline ("Building apps that actually help you get things done")
+- [x] **HERO-01**: Hero section with "Frexes" name and tagline ("Building apps that actually help you get things done")
 - [ ] **HERO-02**: Ambient background animation (gradient mesh or subtle animated effect, always running, not scroll-triggered)
 - [x] **HERO-03**: Favicon and site identity (32x32 + SVG)
 
 ### App Showcase
 
-- [ ] **APPS-01**: Grid of 4 app cards — Energy XP, Progres, Voila, Karv
-- [ ] **APPS-02**: Each card shows icon, name, one-liner description, status badge
-- [ ] **APPS-03**: "Coming Soon" badge for Voila and Karv
-- [ ] **APPS-04**: Links to energyxp.app and progres.ing for live apps
+- [x] **APPS-01**: Grid of 4 app cards — Energy XP, Progres, Voila, Karv
+- [x] **APPS-02**: Each card shows icon, name, one-liner description, status badge
+- [x] **APPS-03**: "Coming Soon" badge for Voila and Karv
+- [x] **APPS-04**: Links to energyxp.app and progres.ing for live apps
 - [ ] **APPS-05**: Hover micro-interaction on cards (lift + subtle scale via Framer Motion)
 - [ ] **APPS-06**: Ambient card animations (subtle background shimmer, gradient shift, or icon animation — always visible, not scroll-triggered)
 
@@ -40,7 +40,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Technical
 
 - [ ] **TECH-01**: Responsive design — mobile-first, tested on mobile/tablet/desktop viewports
-- [ ] **TECH-02**: SEO meta tags, Open Graph tags, structured data
+- [x] **TECH-02**: SEO meta tags, Open Graph tags, structured data
 - [ ] **TECH-03**: Lighthouse Performance score 95+
 - [ ] **TECH-04**: Deployed to frexes.dev
 
@@ -91,15 +91,15 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Complete |
 | HERO-03 | Phase 1 | Complete |
-| HERO-01 | Phase 2 | Pending |
-| APPS-01 | Phase 2 | Pending |
-| APPS-02 | Phase 2 | Pending |
-| APPS-03 | Phase 2 | Pending |
-| APPS-04 | Phase 2 | Pending |
+| HERO-01 | Phase 2 | Complete |
+| APPS-01 | Phase 2 | Complete |
+| APPS-02 | Phase 2 | Complete |
+| APPS-03 | Phase 2 | Complete |
+| APPS-04 | Phase 2 | Complete |
 | ABOUT-01 | Phase 2 | Pending |
 | FOOT-01 | Phase 2 | Pending |
 | TECH-01 | Phase 2 | Pending |
-| TECH-02 | Phase 2 | Pending |
+| TECH-02 | Phase 2 | Complete |
 | HERO-02 | Phase 3 | Pending |
 | APPS-05 | Phase 3 | Pending |
 | APPS-06 | Phase 3 | Pending |

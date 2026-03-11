@@ -90,6 +90,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-11 |
-| 2. Static Content | 0/3 | Not started | - |
+| 2. Static Content | 2/3 | In Progress|  |
 | 3. Animation Layer | 0/2 | Not started | - |
 | 4. Launch | 0/2 | Not started | - |
