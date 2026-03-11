@@ -1,21 +1,14 @@
 ---
-import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
 import { LazyMotionProvider } from "../components/motion/LazyMotionProvider";
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Frexes</title>
-  </head>
-  <body class="bg-white text-foreground">
-    <main class="flex min-h-screen items-center justify-center">
-      <h1 class="text-4xl font-bold">Frexes</h1>
-    </main>
+<BaseLayout>
+  <main class="flex min-h-screen items-center justify-center">
+    <h1 class="text-4xl font-bold">Frexes</h1>
+  </main>
 
-    <!-- Animation island: ZERO JS until scrolled into view -->
-    <LazyMotionProvider client:visible>
-      <!-- Phase 2/3 animated components will go here -->
-    </LazyMotionProvider>
-  </body>
-</html>
+  <!-- Animation island: ZERO JS until scrolled into view -->
+  <LazyMotionProvider client:visible>
+    <!-- Phase 2/3 animated components will go here -->
+  </LazyMotionProvider>
+</BaseLayout>
