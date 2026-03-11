@@ -12,13 +12,13 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **FOUND-01**: Astro project with Tailwind v4 + shadcn/ui + motion + GSAP configured
 - [x] **FOUND-02**: LazyMotion + `client:visible` pattern established for all React islands
 - [x] **FOUND-03**: `prefers-reduced-motion` utility baked into both FM and GSAP from day one
-- [ ] **FOUND-04**: `src/data/apps.ts` typed data file driving all app content
+- [x] **FOUND-04**: `src/data/apps.ts` typed data file driving all app content
 
 ### Hero
 
 - [ ] **HERO-01**: Hero section with "Frexes" name and tagline ("Building apps that actually help you get things done")
 - [ ] **HERO-02**: Ambient background animation (gradient mesh or subtle animated effect, always running, not scroll-triggered)
-- [ ] **HERO-03**: Favicon and site identity (32x32 + SVG)
+- [x] **HERO-03**: Favicon and site identity (32x32 + SVG)
 
 ### App Showcase
 
@@ -89,8 +89,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-01 | Phase 1 | Complete |
 | FOUND-02 | Phase 1 | Complete |
 | FOUND-03 | Phase 1 | Complete |
-| FOUND-04 | Phase 1 | Pending |
-| HERO-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Complete |
+| HERO-03 | Phase 1 | Complete |
 | HERO-01 | Phase 2 | Pending |
 | APPS-01 | Phase 2 | Pending |
 | APPS-02 | Phase 2 | Pending |

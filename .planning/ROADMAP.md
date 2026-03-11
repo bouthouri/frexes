@@ -12,7 +12,7 @@ Four phases from zero to live portfolio. Phase 1 establishes the load-bearing ar
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Astro project configured with animation safety rules and typed app data
+- [x] **Phase 1: Foundation** - Astro project configured with animation safety rules and typed app data (completed 2026-03-11)
 - [ ] **Phase 2: Static Content** - All sections built, responsive, and link-verified — no animations yet
 - [ ] **Phase 3: Animation Layer** - Ambient and hover animations added as enhancement on top of static content
 - [ ] **Phase 4: Launch** - Lighthouse 95+ confirmed, deployed to frexes.dev
@@ -89,7 +89,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/3 | Not started | - |
+| 1. Foundation | 3/3 | Complete   | 2026-03-11 |
 | 2. Static Content | 0/3 | Not started | - |
 | 3. Animation Layer | 0/2 | Not started | - |
 | 4. Launch | 0/2 | Not started | - |
