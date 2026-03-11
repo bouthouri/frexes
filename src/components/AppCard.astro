@@ -1,0 +1,34 @@
+---
+import type { App } from "../data/apps";
+import StatusBadge from "./StatusBadge.astro";
+
+interface Props {
+  app: App;
+}
+
+const { app } = Astro.props;
+
+const Tag = app.url ? "a" : "div";
+const linkProps = app.url
+  ? { href: app.url, target: "_blank", rel: "noopener noreferrer" }
+  : {};
+---
+
+<Tag {...linkProps} class="rounded-2xl border border-border bg-background p-6">
+  <div class="flex items-start gap-4">
+    <img
+      src={app.icon}
+      alt={`${app.name} icon`}
+      width="48"
+      height="48"
+      class="rounded-xl"
+    />
+    <div class="flex-1">
+      <div class="flex items-center gap-2">
+        <h3 class="text-lg font-semibold">{app.name}</h3>
+        <StatusBadge status={app.status} />
+      </div>
+      <p class="mt-1 text-sm text-muted-foreground">{app.tagline}</p>
+    </div>
+  </div>
+</Tag>
