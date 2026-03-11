@@ -31,15 +31,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### About
 
-- [ ] **ABOUT-01**: Brief about section — indie maker identity, confident first-person voice
+- [x] **ABOUT-01**: Brief about section — indie maker identity, confident first-person voice
 
 ### Footer
 
-- [ ] **FOOT-01**: Footer with X (@bouthouri101) and LinkedIn links
+- [x] **FOOT-01**: Footer with X (@bouthouri101) and LinkedIn links
 
 ### Technical
 
-- [ ] **TECH-01**: Responsive design — mobile-first, tested on mobile/tablet/desktop viewports
+- [x] **TECH-01**: Responsive design — mobile-first, tested on mobile/tablet/desktop viewports
 - [x] **TECH-02**: SEO meta tags, Open Graph tags, structured data
 - [ ] **TECH-03**: Lighthouse Performance score 95+
 - [ ] **TECH-04**: Deployed to frexes.dev
@@ -96,9 +96,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | APPS-02 | Phase 2 | Complete |
 | APPS-03 | Phase 2 | Complete |
 | APPS-04 | Phase 2 | Complete |
-| ABOUT-01 | Phase 2 | Pending |
-| FOOT-01 | Phase 2 | Pending |
-| TECH-01 | Phase 2 | Pending |
+| ABOUT-01 | Phase 2 | Complete |
+| FOOT-01 | Phase 2 | Complete |
+| TECH-01 | Phase 2 | Complete |
 | TECH-02 | Phase 2 | Complete |
 | HERO-02 | Phase 3 | Pending |
 | APPS-05 | Phase 3 | Pending |
