@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Astro project configured with animation safety rules and typed app data (completed 2026-03-11)
 - [x] **Phase 2: Static Content** - All sections built, responsive, and link-verified — no animations yet (completed 2026-03-11)
-- [ ] **Phase 3: Animation Layer** - Ambient and hover animations added as enhancement on top of static content
+- [x] **Phase 3: Animation Layer** - Ambient and hover animations added as enhancement on top of static content (completed 2026-03-11)
 - [ ] **Phase 4: Launch** - Lighthouse 95+ confirmed, deployed to frexes.dev
 
 ## Phase Details
@@ -91,5 +91,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-11 |
 | 2. Static Content | 3/3 | Complete   | 2026-03-11 |
-| 3. Animation Layer | 0/2 | Not started | - |
+| 3. Animation Layer | 2/2 | Complete   | 2026-03-11 |
 | 4. Launch | 0/2 | Not started | - |

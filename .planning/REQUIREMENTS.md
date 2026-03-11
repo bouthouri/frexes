@@ -26,8 +26,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **APPS-02**: Each card shows icon, name, one-liner description, status badge
 - [x] **APPS-03**: "Coming Soon" badge for Voila and Karv
 - [x] **APPS-04**: Links to energyxp.app and progres.ing for live apps
-- [ ] **APPS-05**: Hover micro-interaction on cards (lift + subtle scale via Framer Motion)
-- [ ] **APPS-06**: Ambient card animations (subtle background shimmer, gradient shift, or icon animation — always visible, not scroll-triggered)
+- [x] **APPS-05**: Hover micro-interaction on cards (lift + subtle scale via Framer Motion)
+- [x] **APPS-06**: Ambient card animations (subtle background shimmer, gradient shift, or icon animation — always visible, not scroll-triggered)
 
 ### About
 
@@ -101,8 +101,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | TECH-01 | Phase 2 | Complete |
 | TECH-02 | Phase 2 | Complete |
 | HERO-02 | Phase 3 | Complete |
-| APPS-05 | Phase 3 | Pending |
-| APPS-06 | Phase 3 | Pending |
+| APPS-05 | Phase 3 | Complete |
+| APPS-06 | Phase 3 | Complete |
 | TECH-03 | Phase 4 | Pending |
 | TECH-04 | Phase 4 | Pending |
 
