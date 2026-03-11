@@ -4,7 +4,6 @@ import Hero from "../components/Hero.astro";
 import AppsGrid from "../components/AppsGrid.astro";
 import About from "../components/About.astro";
 import Footer from "../components/Footer.astro";
-import { LazyMotionProvider } from "../components/motion/LazyMotionProvider";
 ---
 <BaseLayout>
   <main>
@@ -13,8 +12,4 @@ import { LazyMotionProvider } from "../components/motion/LazyMotionProvider";
     <About />
   </main>
   <Footer />
-
-  <!-- Animation island: reserved for Phase 3 -->
-  <LazyMotionProvider client:visible>
-  </LazyMotionProvider>
 </BaseLayout>
