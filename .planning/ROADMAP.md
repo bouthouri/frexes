@@ -76,11 +76,11 @@ Plans:
   1. Lighthouse Performance score is 95 or above on a production build (not dev server)
   2. frexes.dev loads the site in a browser without errors
   3. OG image preview is correct when the URL is pasted into a social media debugger
-**Plans**: 3 plans
+**Plans**: 2 plans
 
 Plans:
-- [ ] 04-01: Performance audit + Lighthouse pass
-- [ ] 04-02: Deploy to frexes.dev via Vercel
+- [ ] 04-01-PLAN.md — Self-host Inter font, create OG image, Lighthouse 95+ audit
+- [ ] 04-02-PLAN.md — Deploy to frexes.dev via Vercel + live verification
 
 ## Progress
 
