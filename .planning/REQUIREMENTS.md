@@ -10,8 +10,8 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Foundation
 
 - [x] **FOUND-01**: Astro project with Tailwind v4 + shadcn/ui + motion + GSAP configured
-- [ ] **FOUND-02**: LazyMotion + `client:visible` pattern established for all React islands
-- [ ] **FOUND-03**: `prefers-reduced-motion` utility baked into both FM and GSAP from day one
+- [x] **FOUND-02**: LazyMotion + `client:visible` pattern established for all React islands
+- [x] **FOUND-03**: `prefers-reduced-motion` utility baked into both FM and GSAP from day one
 - [ ] **FOUND-04**: `src/data/apps.ts` typed data file driving all app content
 
 ### Hero
@@ -87,8 +87,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Complete |
-| FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Complete |
+| FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Pending |
 | HERO-03 | Phase 1 | Pending |
 | HERO-01 | Phase 2 | Pending |
