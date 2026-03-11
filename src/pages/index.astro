@@ -1,14 +1,20 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import AppsGrid from "../components/AppsGrid.astro";
+import About from "../components/About.astro";
+import Footer from "../components/Footer.astro";
 import { LazyMotionProvider } from "../components/motion/LazyMotionProvider";
 ---
 <BaseLayout>
-  <main class="flex min-h-screen items-center justify-center">
-    <h1 class="text-4xl font-bold">Frexes</h1>
+  <main>
+    <Hero />
+    <AppsGrid />
+    <About />
   </main>
+  <Footer />
 
-  <!-- Animation island: ZERO JS until scrolled into view -->
+  <!-- Animation island: reserved for Phase 3 -->
   <LazyMotionProvider client:visible>
-    <!-- Phase 2/3 animated components will go here -->
   </LazyMotionProvider>
 </BaseLayout>
