@@ -62,11 +62,11 @@ Plans:
   2. App cards have a continuously running ambient effect (shimmer, gradient shift, or icon motion) that doesn't require user interaction
   3. Hovering an app card produces a lift + scale micro-interaction via Framer Motion
   4. All animations respect `prefers-reduced-motion` — enabling it disables motion without breaking layout
-**Plans**: 3 plans
+**Plans**: 2 plans
 
 Plans:
-- [ ] 03-01: Hero ambient background animation (GSAP or CSS)
-- [ ] 03-02: AppCard hover micro-interaction + ambient card animation (Framer Motion)
+- [ ] 03-01-PLAN.md — Hero ambient CSS gradient background animation
+- [ ] 03-02-PLAN.md — AppCard React island with hover micro-interaction + ambient shimmer
 
 ### Phase 4: Launch
 **Goal**: frexes.dev is live, fast, and correct
