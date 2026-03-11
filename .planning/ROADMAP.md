@@ -29,7 +29,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. `prefers-reduced-motion` utility exists and is wired into both FM and GSAP init paths
   4. `src/data/apps.ts` exports a typed array with all 4 app records (Energy XP, Progres, Voila, Karv)
   5. Favicon renders in browser tab and `BaseLayout.astro` has HTML shell with `<head>` structure
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
 - [ ] 01-01: Astro + Tailwind v4 + shadcn/ui + React integration setup
@@ -46,7 +46,7 @@ Plans:
   3. energyxp.app and progres.ing links open the correct external sites; Voila and Karv cards have no broken links
   4. About section and footer with X and LinkedIn links are present and readable at all viewport sizes
   5. SEO meta tags and Open Graph tags are set with correct title, description, and site URL
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
 - [ ] 02-01: Hero and BaseLayout SEO wiring
@@ -62,7 +62,7 @@ Plans:
   2. App cards have a continuously running ambient effect (shimmer, gradient shift, or icon motion) that doesn't require user interaction
   3. Hovering an app card produces a lift + scale micro-interaction via Framer Motion
   4. All animations respect `prefers-reduced-motion` — enabling it disables motion without breaking layout
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
 - [ ] 03-01: Hero ambient background animation (GSAP or CSS)
@@ -76,7 +76,7 @@ Plans:
   1. Lighthouse Performance score is 95 or above on a production build (not dev server)
   2. frexes.dev loads the site in a browser without errors
   3. OG image preview is correct when the URL is pasted into a social media debugger
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
 - [ ] 04-01: Performance audit + Lighthouse pass
