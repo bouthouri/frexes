@@ -86,31 +86,31 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | — | Pending |
-| FOUND-02 | — | Pending |
-| FOUND-03 | — | Pending |
-| FOUND-04 | — | Pending |
-| HERO-01 | — | Pending |
-| HERO-02 | — | Pending |
-| HERO-03 | — | Pending |
-| APPS-01 | — | Pending |
-| APPS-02 | — | Pending |
-| APPS-03 | — | Pending |
-| APPS-04 | — | Pending |
-| APPS-05 | — | Pending |
-| APPS-06 | — | Pending |
-| ABOUT-01 | — | Pending |
-| FOOT-01 | — | Pending |
-| TECH-01 | — | Pending |
-| TECH-02 | — | Pending |
-| TECH-03 | — | Pending |
-| TECH-04 | — | Pending |
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| HERO-03 | Phase 1 | Pending |
+| HERO-01 | Phase 2 | Pending |
+| APPS-01 | Phase 2 | Pending |
+| APPS-02 | Phase 2 | Pending |
+| APPS-03 | Phase 2 | Pending |
+| APPS-04 | Phase 2 | Pending |
+| ABOUT-01 | Phase 2 | Pending |
+| FOOT-01 | Phase 2 | Pending |
+| TECH-01 | Phase 2 | Pending |
+| TECH-02 | Phase 2 | Pending |
+| HERO-02 | Phase 3 | Pending |
+| APPS-05 | Phase 3 | Pending |
+| APPS-06 | Phase 3 | Pending |
+| TECH-03 | Phase 4 | Pending |
+| TECH-04 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 19 total
-- Mapped to phases: 0
-- Unmapped: 19
+- Mapped to phases: 19
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-11*
-*Last updated: 2026-03-11 after initial definition*
+*Last updated: 2026-03-11 — traceability filled after roadmap creation*
