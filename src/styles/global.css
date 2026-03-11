@@ -29,9 +29,43 @@
   animation: gradient-shift 15s ease infinite;
 }
 
+@keyframes card-shimmer {
+  0%,
+  100% {
+    opacity: 0.03;
+  }
+  50% {
+    opacity: 0.08;
+  }
+}
+
+.app-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.app-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    var(--card-accent, #6366f1) 0%,
+    transparent 60%
+  );
+  animation: card-shimmer 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-gradient {
     animation: none;
     background-position: 0% 50%;
+  }
+
+  .app-card::before {
+    animation: none;
+    opacity: 0.05;
   }
 }
