@@ -17,7 +17,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Hero
 
 - [x] **HERO-01**: Hero section with "Frexes" name and tagline ("Building apps that actually help you get things done")
-- [ ] **HERO-02**: Ambient background animation (gradient mesh or subtle animated effect, always running, not scroll-triggered)
+- [x] **HERO-02**: Ambient background animation (gradient mesh or subtle animated effect, always running, not scroll-triggered)
 - [x] **HERO-03**: Favicon and site identity (32x32 + SVG)
 
 ### App Showcase
@@ -100,7 +100,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOOT-01 | Phase 2 | Complete |
 | TECH-01 | Phase 2 | Complete |
 | TECH-02 | Phase 2 | Complete |
-| HERO-02 | Phase 3 | Pending |
+| HERO-02 | Phase 3 | Complete |
 | APPS-05 | Phase 3 | Pending |
 | APPS-06 | Phase 3 | Pending |
 | TECH-03 | Phase 4 | Pending |
