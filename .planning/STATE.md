@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Completed 03-02-PLAN.md (Phase 3 complete)
-last_updated: "2026-03-11T14:46:41.401Z"
-last_activity: 2026-03-11 — Plan 03-02 executed (app card interactions)
+status: in-progress
+stopped_at: Completed 04-01-PLAN.md
+last_updated: "2026-03-12T09:45:28Z"
+last_activity: 2026-03-12 — Plan 04-01 executed (performance & OG image)
 progress:
   total_phases: 4
   completed_phases: 3
-  total_plans: 8
-  completed_plans: 8
-  percent: 100
+  total_plans: 10
+  completed_plans: 9
+  percent: 90
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-11)
 
 **Core value:** Visitors instantly understand what Frexes builds and feel confident these are high-quality, well-crafted apps.
-**Current focus:** Phase 3 — Animations
+**Current focus:** Phase 4 — Launch
 
 ## Current Position
 
-Phase: 3 of 4 (Animations)
-Plan: 2 of 2 in current phase
-Status: Phase Complete — advancing to Phase 4
-Last activity: 2026-03-11 — Plan 03-02 executed (app card interactions)
+Phase: 4 of 4 (Launch)
+Plan: 1 of 2 in current phase
+Status: Plan 04-01 complete, 04-02 remaining
+Last activity: 2026-03-12 — Plan 04-01 executed (performance & OG image)
 
-Progress: [██████████] 100%
+Progress: [█████████░] 90%
 
 ## Performance Metrics
 
@@ -52,6 +52,7 @@ Progress: [██████████] 100%
 
 *Updated after each plan completion*
 | Phase 02 P01 | 1 | 2 tasks | 2 files |
+| Phase 04 P01 | 3 min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,8 @@ Recent decisions affecting current work:
 - [03-01]: 4 app accent colors as gradient stops — ties hero to brand identity
 - [03-02]: Direct LazyMotionProvider client:visible in AppsGrid — no wrapper component needed
 - [03-02]: Inline StatusBadge JSX in React island — can't import Astro components into React
+- [04-01]: @fontsource/inter over Google Fonts CDN — zero render-blocking external requests
+- [04-01]: SVG+resvg-js for OG image generation — reproducible, no design tool needed
 
 ### Pending Todos
 
@@ -86,6 +89,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-11T14:43:08Z
-Stopped at: Completed 03-02-PLAN.md (Phase 3 complete)
+Last session: 2026-03-12T09:42:08Z
+Stopped at: Completed 04-01-PLAN.md
 Resume file: None

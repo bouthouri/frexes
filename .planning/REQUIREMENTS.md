@@ -41,7 +41,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **TECH-01**: Responsive design — mobile-first, tested on mobile/tablet/desktop viewports
 - [x] **TECH-02**: SEO meta tags, Open Graph tags, structured data
-- [ ] **TECH-03**: Lighthouse Performance score 95+
+- [x] **TECH-03**: Lighthouse Performance score 95+
 - [ ] **TECH-04**: Deployed to frexes.dev
 
 ## v2 Requirements
@@ -103,7 +103,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HERO-02 | Phase 3 | Complete |
 | APPS-05 | Phase 3 | Complete |
 | APPS-06 | Phase 3 | Complete |
-| TECH-03 | Phase 4 | Pending |
+| TECH-03 | Phase 4 | Complete |
 | TECH-04 | Phase 4 | Pending |
 
 **Coverage:**
