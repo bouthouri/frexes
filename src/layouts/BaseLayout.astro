@@ -14,7 +14,7 @@ interface Props {
 
 const {
   title = "Frexes",
-  description = "Building apps that actually help you get things done",
+  description = "Apps that matters",
   url = "https://frexes.dev",
   image = "https://frexes.dev/og.png",
 } = Astro.props;
@@ -47,7 +47,7 @@ const {
     <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
     <title>{title}</title>
   </head>
-  <body class="bg-background text-foreground font-sans antialiased">
+  <body class="bg-background text-foreground font-sans antialiased min-h-screen flex flex-col">
     <slot />
   </body>
 </html>

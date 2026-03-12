@@ -1,9 +1,20 @@
+import { useRef, useState, useCallback } from "react";
 import { m } from "motion/react";
 import { usePrefersReducedMotion } from "../lib/motion";
 import type { App } from "../data/apps";
 
 export function AppCard({ app }: { app: App }) {
   const prefersReduced = usePrefersReducedMotion();
+  const cardRef = useRef<HTMLDivElement>(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [isHovered, setIsHovered] = useState(false);
+  const isComingSoon = app.status === "coming-soon";
+
+  const handleMouseMove = useCallback((e: React.MouseEvent) => {
+    const rect = cardRef.current?.getBoundingClientRect();
+    if (!rect) return;
+    setMousePos({ x: e.clientX - rect.left, y: e.clientY - rect.top });
+  }, []);
 
   const Tag = app.url ? "a" : "div";
   const linkProps = app.url
@@ -12,33 +23,64 @@ export function AppCard({ app }: { app: App }) {
 
   return (
     <m.div
-      whileHover={prefersReduced ? undefined : { y: -4, scale: 1.02 }}
-      transition={{ type: "spring", stiffness: 300, damping: 20 }}
-      className="app-card rounded-2xl border border-border bg-background p-6 relative overflow-hidden"
-      style={{ "--card-accent": app.accentColor } as React.CSSProperties}
+      ref={cardRef}
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      whileHover={prefersReduced || isComingSoon ? undefined : { y: -2 }}
+      transition={{ type: "spring", stiffness: 400, damping: 25 }}
+      className={`relative rounded-2xl border border-foreground/[0.08] bg-background p-8 overflow-hidden group ${
+        isComingSoon ? "cursor-default" : "cursor-pointer"
+      }`}
     >
-      <Tag {...linkProps} className="flex items-start gap-4">
-        <img
-          src={app.icon}
-          alt={`${app.name} icon`}
-          width={48}
-          height={48}
-          className="rounded-xl"
+      {/* Spotlight border glow on hover */}
+      {!isComingSoon && (
+        <div
+          className="pointer-events-none absolute -inset-px rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          style={{
+            background: isHovered
+              ? `radial-gradient(400px circle at ${mousePos.x}px ${mousePos.y}px, rgba(0,0,0,0.4), transparent 40%)`
+              : undefined,
+            mask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
+            maskComposite: "exclude",
+            WebkitMaskComposite: "xor",
+            padding: "1px",
+          }}
         />
-        <div className="flex-1">
-          <div className="flex items-center gap-2">
-            <h3 className="text-lg font-semibold">{app.name}</h3>
-            <span
-              className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${
-                app.status === "live"
-                  ? "bg-green-100 text-green-800"
-                  : "bg-amber-100 text-amber-800"
-              }`}
-            >
-              {app.status === "live" ? "Live" : "Coming Soon"}
-            </span>
+      )}
+      {/* Spotlight fill glow on hover */}
+      {!isComingSoon && (
+        <div
+          className="pointer-events-none absolute -inset-px rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          style={{
+            background: isHovered
+              ? `radial-gradient(400px circle at ${mousePos.x}px ${mousePos.y}px, rgba(0,0,0,0.06), transparent 40%)`
+              : undefined,
+          }}
+        />
+      )}
+      <Tag {...linkProps} className="relative flex flex-col gap-5">
+        {/* Icon in bordered container */}
+        <div className="flex items-center justify-between">
+          <div className="w-12 h-12 rounded-xl border border-foreground/[0.08] flex items-center justify-center">
+            <img
+              src={app.icon}
+              alt={`${app.name} icon`}
+              width={28}
+              height={28}
+            />
           </div>
-          <p className="mt-1 text-sm text-muted-foreground">{app.tagline}</p>
+          {isComingSoon && (
+            <span className="text-xs font-medium text-foreground/70 tracking-wide uppercase">
+              Releasing soon
+            </span>
+          )}
+        </div>
+        <div>
+          <h3 className="text-base font-bold">{app.name}</h3>
+          <p className="mt-2 text-sm text-foreground/70 leading-relaxed">
+            {app.description}
+          </p>
         </div>
       </Tag>
     </m.div>
