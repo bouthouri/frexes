@@ -40,8 +40,8 @@ export const apps: App[] = [
     tagline: "Behavior tracking & AI analysis",
     description:
       "Log daily behaviors and let AI surface the patterns you can't see. Understand what drives your best days and what's holding you back.",
-    status: "coming-soon",
-    url: null,
+    status: "live",
+    url: "https://voila.app",
     icon: "/icons/voila.svg",
     accentColor: "#f59e0b",
   },
@@ -51,8 +51,8 @@ export const apps: App[] = [
     tagline: "Habit tracking, simplified",
     description:
       "No streaks, no guilt. Build habits with a calm, minimal tracker that focuses on consistency over perfection.",
-    status: "coming-soon",
-    url: null,
+    status: "live",
+    url: "https://karv.ing",
     icon: "/icons/karv.svg",
     accentColor: "#ec4899",
   },
