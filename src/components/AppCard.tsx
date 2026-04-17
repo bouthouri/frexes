@@ -29,7 +29,7 @@ export function AppCard({ app }: { app: App }) {
       onMouseLeave={() => setIsHovered(false)}
       whileHover={prefersReduced || isComingSoon ? undefined : { y: -2 }}
       transition={{ type: "spring", stiffness: 400, damping: 25 }}
-      className={`relative rounded-2xl border border-foreground/[0.08] bg-background p-8 overflow-hidden group ${
+      className={`relative rounded-2xl border border-foreground/[0.08] bg-background overflow-hidden group ${
         isComingSoon ? "cursor-default" : "cursor-pointer"
       }`}
     >
@@ -59,7 +59,7 @@ export function AppCard({ app }: { app: App }) {
           }}
         />
       )}
-      <Tag {...linkProps} className="relative flex flex-col gap-5">
+      <Tag {...linkProps} className="relative flex flex-col gap-5 p-8">
         {/* Icon in bordered container */}
         <div className="flex items-center justify-between">
           <div className="w-12 h-12 rounded-xl border border-foreground/[0.08] flex items-center justify-center">
