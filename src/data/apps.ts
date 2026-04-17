@@ -41,7 +41,7 @@ export const apps: App[] = [
     description:
       "Log daily behaviors and let AI surface the patterns you can't see. Understand what drives your best days and what's holding you back.",
     status: "live",
-    url: "https://voila.app",
+    url: "https://voilaa.app",
     icon: "/icons/voila.svg",
     accentColor: "#f59e0b",
   },
